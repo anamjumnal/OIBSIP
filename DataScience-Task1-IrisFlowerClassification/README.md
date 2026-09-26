@@ -1,31 +1,36 @@
-# IrisLens — Iris Flower Classification
+# 🌸 Iris Flower Classification
 
-A floral, responsive web application for the Oasis Infobyte Data Science Task 1: Iris Flower Classification.
+## 🎯 Objective
 
-## Features
-- Multicolor iris-flower background UI
-- Live Iris species prediction
-- Logistic Regression and Random Forest comparison
-- Accuracy, precision, recall and F1 metrics
-- Dataset preview
-- EDA charts
-- Random Forest feature importance
-- Responsive layout
+To build a machine learning classification model that can identify the species of an Iris flower based on its sepal and petal measurements.
 
-## Run
+## 🔧 Steps Performed
 
-```bash
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
+1. 📥 Loaded the Iris dataset.
+2. 🔍 Explored the dataset and checked its structure.
+3. 🧹 Prepared the data for machine learning.
+4. ✂️ Split the dataset into training and testing data.
+5. 🤖 Trained a classification model.
+6. 📊 Evaluated the model's performance.
+7. 🌐 Created an interactive web application for Iris flower classification.
+8. 🧪 Tested the application using flower measurements.
 
-pip install -r requirements.txt
-python app.py
-```
+## 🛠️ Tools & Technologies
 
-Open http://127.0.0.1:5000
+- 🐍 Python
+- 🐼 Pandas
+- 🔢 NumPy
+- 🤖 Scikit-learn
+- 🌐 Streamlit
+- 📓 Jupyter Notebook
 
-## Oasis Task Requirement
-Keep the required clean, commented Jupyter Notebook separately in this project folder. The website is the interactive presentation/demo; it does not replace the notebook requirement.
+## 📊 Outcome
+
+The project successfully implements an Iris flower classification system that predicts the flower species based on the given measurements.
+
+## 📁 Project Files
+
+- `Iris_Flower_Classification.ipynb` — Jupyter Notebook containing the analysis and model
+- `app.py` — Interactive Streamlit application
+- `requirements.txt` — Required Python libraries
+- `static/` — Application assets
