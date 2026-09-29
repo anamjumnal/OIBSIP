@@ -118,3 +118,26 @@ DataScience-Task3-Car Price Prediction with Machine Learning/
 ├── Gemini_Generated_Image_klofnvklofnvklof.png
 ├── requirements.txt
 └── README.md
+
+## ▶️ Run the Project Locally
+1. Clone the repository
+git clone https://github.com/anamjumnal/OIBSIP.git
+
+2. Navigate to the Task 3 folder
+cd "OIBSIP/DataScience-Task3-Car Price Prediction with Machine Learning"
+
+3. Install the required dependencies
+pip install -r requirements.txt
+
+4. Run the Streamlit application
+streamlit run app.py
+
+The application will open in your browser at:
+http://localhost:8501
+
+## 🎯 Project Outcome
+This project demonstrates an end-to-end Machine Learning workflow for used-car price prediction, including data preprocessing, feature engineering, exploratory analysis, model training, evaluation, and deployment through an interactive web application.
+
+##👩‍💻 Author
+Anam Jumnal
+GitHub: https://github.com/anamjumnal/OIBSIP
