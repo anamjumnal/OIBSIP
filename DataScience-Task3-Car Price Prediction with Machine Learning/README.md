@@ -119,7 +119,7 @@ DataScience-Task3-Car Price Prediction with Machine Learning/
 ├── requirements.txt
 └── README.md
 
-## ▶️ Run the Project Locally
+### ▶️Run the Project Locally
 1. Clone the repository
 git clone https://github.com/anamjumnal/OIBSIP.git
 
@@ -135,9 +135,9 @@ streamlit run app.py
 The application will open in your browser at:
 http://localhost:8501
 
-## 🎯 Project Outcome
+### 🎯Project Outcome
 This project demonstrates an end-to-end Machine Learning workflow for used-car price prediction, including data preprocessing, feature engineering, exploratory analysis, model training, evaluation, and deployment through an interactive web application.
 
-##👩‍💻 Author
+## 👩‍💻Author
 Anam Jumnal
 GitHub: https://github.com/anamjumnal/OIBSIP
