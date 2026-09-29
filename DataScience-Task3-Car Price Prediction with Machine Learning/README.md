@@ -1,6 +1,4 @@
-# DataScience-Task3-Car Price Prediction with Machine Learning
-
-## 🚗 Car Price Prediction with Machine Learning
+# 🚗 Car Price Prediction with Machine Learning
 
 This project predicts the selling price of used cars using Machine Learning. It covers the complete workflow from data cleaning and exploratory data analysis to model training, evaluation, and an interactive Streamlit web application.
 
@@ -8,7 +6,7 @@ This project predicts the selling price of used cars using Machine Learning. It 
 
 The project uses a used-car dataset to analyze the factors affecting car prices and build regression models to predict the selling price of a vehicle.
 
-### Key steps covered:
+**Key steps covered:**
 
 - Data cleaning and preprocessing
 - Handling missing values and duplicates
@@ -24,9 +22,7 @@ The project uses a used-car dataset to analyze the factors affecting car prices 
 
 ## 🔧 Data Preprocessing
 
-The dataset is cleaned and prepared before training the models.
-
-The preprocessing includes:
+The dataset is cleaned and prepared before training the models:
 
 - Checking and handling null values
 - Removing duplicate records
@@ -42,9 +38,7 @@ Additional features are created to improve the prediction process:
 
 ## 📊 Exploratory Data Analysis
 
-The project uses visualizations to understand patterns and relationships within the dataset.
-
-The analysis includes:
+Visualizations are used to understand patterns and relationships within the dataset:
 
 - Selling price distribution
 - Fuel type vs selling price
@@ -56,27 +50,23 @@ The analysis includes:
 
 Three regression models are trained and compared:
 
-1. **Linear Regression**
-2. **Random Forest Regressor**
-3. **Gradient Boosting Regressor**
+1. Linear Regression
+2. Random Forest Regressor
+3. Gradient Boosting Regressor
 
 ## 📈 Model Evaluation
 
-The models are evaluated using the following metrics:
+The models are evaluated on the test dataset using:
 
-- **MAE (Mean Absolute Error)**
-- **RMSE (Root Mean Squared Error)**
+- **MAE** (Mean Absolute Error)
+- **RMSE** (Root Mean Squared Error)
 - **R² Score**
-
-The models are compared based on their performance on the test dataset.
 
 ## 🌐 Streamlit Web Application
 
-The project includes an interactive Streamlit application called:
+The project includes an interactive Streamlit app: **AutoPulse AI | Car Price Prediction**
 
-### AutoPulse AI | Car Price Prediction
-
-The application provides:
+**Features:**
 
 - Project overview
 - Interactive car price prediction
@@ -84,7 +74,7 @@ The application provides:
 - Feature importance visualization
 - Dataset explorer
 
-Users can enter vehicle details such as:
+**Input details:**
 
 - Brand
 - Year
@@ -95,22 +85,22 @@ Users can enter vehicle details such as:
 - Transmission
 - Previous owners
 
-The application then generates an estimated selling price.
+The app then generates an estimated selling price.
 
 ## 🛠️ Tech Stack
 
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Scikit-learn**
-- **Matplotlib**
-- **Seaborn**
-- **Jupyter Notebook**
-- **Streamlit**
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- Streamlit
 
 ## 📁 Project Structure
 
-```text
+```
 DataScience-Task3-Car Price Prediction with Machine Learning/
 │
 ├── app.py
@@ -118,26 +108,41 @@ DataScience-Task3-Car Price Prediction with Machine Learning/
 ├── Gemini_Generated_Image_klofnvklofnvklof.png
 ├── requirements.txt
 └── README.md
+```
 
-### ▶️Run the Project Locally
-1. Clone the repository
+## ▶️ Run the Project Locally
+
+**1. Clone the repository**
+
+```bash
 git clone https://github.com/anamjumnal/OIBSIP.git
+```
 
-2. Navigate to the Task 3 folder
+**2. Navigate to the Task 3 folder**
+
+```bash
 cd "OIBSIP/DataScience-Task3-Car Price Prediction with Machine Learning"
+```
 
-3. Install the required dependencies
+**3. Install the required dependencies**
+
+```bash
 pip install -r requirements.txt
+```
 
-4. Run the Streamlit application
+**4. Run the Streamlit application**
+
+```bash
 streamlit run app.py
+```
 
-The application will open in your browser at:
-http://localhost:8501
+The app will open in your browser at: http://localhost:8501
 
-### 🎯Project Outcome
+## 🎯 Project Outcome
+
 This project demonstrates an end-to-end Machine Learning workflow for used-car price prediction, including data preprocessing, feature engineering, exploratory analysis, model training, evaluation, and deployment through an interactive web application.
 
-## 👩‍💻Author
-Anam Jumnal
-GitHub: https://github.com/anamjumnal/OIBSIP
+## 👩‍💻 Author
+
+**Anam Jumnal**
+GitHub: [anamjumnal](https://github.com/anamjumnal/OIBSIP)
