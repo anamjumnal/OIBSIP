@@ -110,7 +110,7 @@ The application then generates an estimated selling price.
 
 ## 📁 Project Structure
 
-
+```text
 DataScience-Task3-Car Price Prediction with Machine Learning/
 │
 ├── app.py
