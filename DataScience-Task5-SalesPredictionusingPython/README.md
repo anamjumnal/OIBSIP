@@ -3,9 +3,6 @@
 **Data Science · Task 5 · Oasis Infobyte Internship**
 
 A regression project that predicts product sales from advertising spend on **TV**, **Radio** and **Newspaper**, with an interactive website that shows the results.
-
-🔗 **Live demo:** https://YOUR-USERNAME.github.io/OIBSIP/DataScience-Task5-SalesPredictionUsingPython/
-
 ---
 
 ## 📌 Overview
